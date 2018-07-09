@@ -20,14 +20,14 @@ You will create a web page which can check if the matrix is symmetric or not.
 
 ## Backend
 
-- the app must approve a square matrix only in the input field,
-  - otherwise it should send an error message
+- only a square matrix should be submitted in the input field,
+  - otherwise the app should send an error message
 - user can choose which validation type will the matrix ride through
 - do the validation methods in backend
 - in case the matrix is valid send a success message in 'Result' section
 - in case the matrix is not valid send an error
 - if success, save the matrix into a database with the following fields:
-  - id, type, date, matrix
+  - id, type, date, matrixNumbers
 
 
 ## Endpoints
@@ -46,4 +46,4 @@ You will create a web page which can check if the matrix is symmetric or not.
 
 ### What is the difference between primary key and foreign key in database?
 
-### What is the main difference between the onload and the readystatechange provided by the XMLHttpRequest object?
+### What is the difference between the onload and the readystatechange provided by the XMLHttpRequest object?
