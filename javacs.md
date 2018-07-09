@@ -36,14 +36,14 @@ You will create a web page which can check if the matrix is symmetric or not.
 ### GET `/`
   - the endpoint should render an HTML displaying the main page
 
-### POST `/matrix/:validtype`
-  - this endpoint should be responsible for sending the matrix with the need of relevant validation type
+### POST `/matrix`
+  - this endpoint should be responsible for sending the matrix with the need of relevant validation type (symmetric or increasing)
 
 ### GET `/matrixes`
-  - this endpoint should query every matrix that were successfully saved and valid
+  - this `REST` endpoint should query every matrix that were successfully saved and valid
 
 ## 2) Question time
 
 ### What is the difference between primary key and foreign key in database?
 
-### What is the difference between the onload and the readystatechange provided by the XMLHttpRequest object?
+### What is the difference between unit and integration test?
