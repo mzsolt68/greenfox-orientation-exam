@@ -14,7 +14,7 @@ You will create a web page which can check if the matrix is symmetric or not.
     - a heading with the title
     - nice intro text
     - radio buttons for the matrix validation options
-    - input text area for the matrix
+    - text area for the matrix input
     - submit button for sending the matrix to backend to check
 
 
@@ -36,7 +36,7 @@ You will create a web page which can check if the matrix is symmetric or not.
 ### GET `/`
 - the endpoint should render an HTML displaying the main page
 
-### POST `/matrix?validtype=[validationType]`
+### POST `/matrix`
 - this endpoint should be responsible for sending the matrix with the need of relevant validation type (symmetric or increasing)
 
 ### GET `/matrixes`

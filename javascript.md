@@ -14,7 +14,7 @@ You will create a web page which can check if the matrix is symmetric or not.
     - a heading with the title
     - nice intro text
     - radio buttons for the matrix validation options
-    - input text area for the matrix
+    - text area for the matrix input
     - submit button for sending the matrix to backend to check
 
 
