@@ -12,7 +12,7 @@ The matrix that you add into the input field MUST be square matrix.
 // this is not a square matrix:
 // 5 5 7 2 1
 // 6 5 7 6 7
-// 1 4 1 4 5
+// 1 4 1 4 
 ```
 
 ## Highlights
