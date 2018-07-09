@@ -10,9 +10,9 @@ The matrix that you add into the input field MUST be square matrix.
 // 1 2 5
 //
 // this is not a square matrix:
-// 7 7 7
-// 6 5 7
-// 1 2 1
+// 5 5 7 2 1
+// 6 5 7 6 7
+// 1 4 1 4 5
 ```
 
 ## Highlights
@@ -27,7 +27,7 @@ The checking page should look like this:
 // 1 2 5
 //
 // example for not symmetric matrix
-// 7 7 7
+// 7 3 7
 // 6 5 7
 // 1 2 1
 ```
@@ -39,15 +39,15 @@ The checking page should look like this:
 // 5 6 8
 //
 // example for not increasing matrix
-// 7 7 7
+// 8 7 9
 // 6 5 7
 // 1 2 1
 ```
 
 - It has a frontend which:
-   - renders main page with a form
+   - renders main page with a form, which has an input text area
    - lets you choose from different matrix validation options
-   - after sumbit renders the result / error to the same page
+   - after submit renders the result / error to the same page
 
 
 - It has a backend which:
@@ -58,7 +58,7 @@ The checking page should look like this:
     - if the matrix that was given is not square
 
 
-Detailed info is in the language specific description.
+More info is in the language specific description.
 
 ## Getting Started
 
