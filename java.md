@@ -102,4 +102,4 @@ You will create a web page which can check if the matrix is symmetric or not.
 
 ### What is the difference between primary key and foreign key in database?
 
-### What kind of HTTP methods do you know and what are they used for? (write 4 example)
+### What is the difference between unit and integration testing?
