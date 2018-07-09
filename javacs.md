@@ -2,11 +2,11 @@
 
 ## 1) Symmetric Matrix
 
-You will create a web page which can check if the matrix is symmetric or not.
+You will create a web page which can check if the matrix is symmetric, increasing or neither.
 
 # Matrix Checker
 
-![main](assets/index1.png)
+![main](assets/index.png)
 
 ## Frontend
 
@@ -28,6 +28,7 @@ You will create a web page which can check if the matrix is symmetric or not.
   - in case the matrix is not valid send an error
   - if success, save the matrix into a database with the following fields:
     - id, type, date, matrixNumbers
+  - handle errors written in the README.md
 
 
 ## Endpoints

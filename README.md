@@ -3,6 +3,7 @@
 Build a web app where you can check a matrix based on the given requirements.
 The matrix that you add into the input field MUST be square matrix.
 
+Square matrix: is a matrix with the same number of rows and columns. [wiki](https://en.wikipedia.org/wiki/Square_matrix)
 
 ```
 this is a square matrix:
@@ -21,6 +22,8 @@ this is not a square matrix:
 The checking page should look like this:
 ![index](assets/index1.png)
 
+Symmetric matrix: is a square matrix that is equal to its transpose. [wiki](https://en.wikipedia.org/wiki/Symmetric_matrix)
+
 ```
 example for symmetric matrix:
 1 0 1
@@ -32,6 +35,7 @@ example for not symmetric matrix
 6 5 7
 1 2 1
 ```
+Increasing matrix: a matrix is said to be increasing matrix if for each column and row, the elements are in increasing order.
 
 ```
 example for increasing matrix:
@@ -57,6 +61,7 @@ example for not increasing matrix
    - handles errors
     - if the input text area is empty
     - if the matrix that was given is not square
+    - if the validation type is missing
 
 
 More info is in the language specific description.
