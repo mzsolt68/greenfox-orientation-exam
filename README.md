@@ -1,4 +1,3 @@
-
 # Fulvipes Orientation Exam
 
 Build a web app where you can check a matrix based on the given requirements.
