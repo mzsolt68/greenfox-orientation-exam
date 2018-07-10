@@ -14,27 +14,14 @@ this is a square matrix:
 this is not a square matrix:
 5 5 7 2 1
 6 5 7 6 7
-1 4 1 4
+1 4 1 4 8
 ```
 
 ## Highlights
 
 The checking page should look like this:
-![index](assets/index1.png)
+![index](assets/index.png)
 
-Symmetric matrix: is a square matrix that is equal to its transpose. [wiki](https://en.wikipedia.org/wiki/Symmetric_matrix)
-
-```
-example for symmetric matrix:
-1 0 1
-0 2 2
-1 2 5
-
-example for not symmetric matrix
-7 3 7
-6 5 7
-1 2 1
-```
 Increasing matrix: a matrix is said to be increasing matrix if for each column and row, the elements are in increasing order.
 
 ```
@@ -49,19 +36,17 @@ example for not increasing matrix
 1 2 1
 ```
 
- - It has a frontend which:
-   - renders main page with a form, which has an input text area
-   - lets you choose from different matrix validation options
-   - after submit renders the result / error to the same page
+  - It has a frontend which:
+    - renders main page with a form, which has an input text area
+    - after submit renders the result / error to the same page
 
 
- - It has a backend which:
-   - decides whether the received matrix meets the given requirement
-   - saves the valid matrix to a database with current date and time
-   - handles errors
-    - if the input text area is empty
-    - if the matrix that was given is not square
-    - if the validation type is missing
+  - It has a backend which:
+    - decides whether the received matrix meets the requirement
+    - saves the valid matrix to a database with current date and time
+    - handles errors
+      - if the input text area is empty
+      - if the matrix that was given is not square
 
 
 More info is in the language specific description.

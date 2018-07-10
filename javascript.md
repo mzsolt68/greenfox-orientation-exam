@@ -2,7 +2,7 @@
 
 ## 1) Symmetric Matrix
 
-You will create a web page which can check if the matrix is symmetric, increasing or neither.
+You will create a web page which can check if the matrix is increasing or not.
 
 # Matrix Checker
 
@@ -13,7 +13,6 @@ You will create a web page which can check if the matrix is symmetric, increasin
   - the **frontend** should have:
     - a heading with the title
     - nice intro text
-    - radio buttons for the matrix validation options
     - text area for the matrix input
     - submit button for sending the matrix to backend to check
 
@@ -22,12 +21,11 @@ You will create a web page which can check if the matrix is symmetric, increasin
 
   - only a square matrix should be submitted in the input field,
     - otherwise the app should send an error message
-  - user can choose which validation type will the matrix ride through
   - do the validation methods in backend
   - in case the matrix is valid send a success message in 'Result' section
-  - in case the matrix is not valid send an error
+  - in case the matrix is not valid send an error message in 'Result' section
   - if success, save the matrix into a database with the following fields:
-    - id, type, date, matrixNumbers
+    - id, date, matrixNumbers
   - handle errors written in the README.md
 
 
@@ -38,9 +36,9 @@ You will create a web page which can check if the matrix is symmetric, increasin
   - the endpoint should render an HTML displaying the main page
 
 ### POST `/matrix/:validtype`
-  - this endpoint should be responsible for sending the matrix with the need of relevant validation type
+  - this endpoint should be responsible for sending the matrix
 
-### GET `/matrixes`
+### GET `/matrices`
   - this endpoint should query every matrix that were successfully saved and valid
 
 ## 2) Question time
