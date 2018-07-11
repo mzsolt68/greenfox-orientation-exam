@@ -20,6 +20,7 @@ this is not a square matrix:
 ## Highlights
 
 The checking page should look like this:
+
 ![index](assets/index.png)
 
 Increasing matrix: a matrix is said to be increasing matrix if for each column and row, the elements are in increasing order.

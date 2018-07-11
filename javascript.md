@@ -36,10 +36,10 @@ You will create a web page which can check if the matrix is increasing or not.
   - the endpoint should render an HTML displaying the main page
 
 ### POST `/matrix/:validtype`
-  - this endpoint should be responsible for sending the matrix
+  - this endpoint is responsible for receiving, validating and saving to the database
 
 ### GET `/matrices`
-  - this endpoint should query every matrix that were successfully saved and valid
+  - this endpoint should query every matrix that were successfully saved and valid return in JSON format
 
 ## 2) Question time
 
