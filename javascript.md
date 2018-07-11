@@ -1,6 +1,6 @@
 # Fulvipes Orientation Exam
 
-## 1) Symmetric Matrix
+## 1) Matrix Checker
 
 You will create a web page which can check if the matrix is increasing or not.
 
