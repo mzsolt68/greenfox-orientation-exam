@@ -35,14 +35,14 @@ You will create a web page which can check if the matrix is increasing or not.
 ### GET `/`
   - the endpoint should render an HTML displaying the main page
 
-### POST `/matrix/:validtype`
+### POST `/matrix`
   - this endpoint is responsible for receiving, validating and saving to the database
 
 ### GET `/matrices`
-  - this endpoint should query every matrix that were successfully saved and valid return in JSON format
+  - this `REST` endpoint should query every matrix that were successfully saved and valid in JSON format
 
 ## 2) Question time
 
 ### What is the difference between primary key and foreign key in database?
 
-### What is the difference between the onload and the readystatechange provided by the XMLHttpRequest object?
+### What is the difference between unit and integration test?
