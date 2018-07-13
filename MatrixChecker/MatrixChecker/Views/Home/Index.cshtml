@@ -1,0 +1,19 @@
+﻿@model MatrixChecker.ViewModels.MatrixViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div style="text-align:center"><h1>Matrix checker</h1></div>
+<div style="text-align:center">Check if your matrix is increasing!</div>
+<div style="text-align:center">Add a matrix and sit back while the evaluation happens.</div>
+<div>
+    <form action="/matrix" method="post">
+        <div>Enter your matrix:</div>
+        <textarea name="input" rows="10" cols="30">@Model.Data</textarea>
+        <div><button type="submit">Submit</button></div>
+</form>
+</div>
+<div><br /><h2>Result:</h2></div>
+<div name="result" style="color:red"><p>@Model.Result</p></div>
+
