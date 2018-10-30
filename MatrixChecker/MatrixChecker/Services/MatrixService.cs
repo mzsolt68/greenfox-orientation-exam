@@ -52,7 +52,7 @@ namespace MatrixChecker.Services
             {
                 for(int j = 1; j < matrixToCheck.Count; j++)
                 {
-                    if(matrixToCheck[j][i] < matrixToCheck[j -1][i])
+                    if(matrixToCheck[j][i] <= matrixToCheck[j -1][i])
                     {
                         return false;
                     }
@@ -100,6 +100,10 @@ namespace MatrixChecker.Services
 
         private bool IsASquareMatrix(List<List<int>> matrixToCheck)
         {
+            if(matrixToCheck.Count < 2)
+            {
+                return false;
+            }
             foreach (var row in matrixToCheck)
             {
                 if (row.Count != matrixToCheck.Count)

@@ -23,7 +23,7 @@ namespace MatrixChecker.Controllers
 
         public IActionResult Index()
         {
-            if(TempData["input"] != null && TempData["result"] != null)
+            if(TempData.Count == 2)
             {
                 matrixViewModel.Data = (string)TempData["input"];
                 matrixViewModel.Result = (string)TempData["result"];
@@ -36,7 +36,6 @@ namespace MatrixChecker.Controllers
         {
             TempData["input"] = input;
             TempData["result"] = matrixService.CheckMatrix(input);
-            //TempData["datas"] = matrixViewModel;
             return RedirectToAction("Index");
         }
 
